@@ -1,11 +1,11 @@
-[eml-pipeline]: https://package.elm-lang.org/packages/elm-lang/core/latest/Basics#(|%3E)
+[elm-pipeline]: https://package.elm-lang.org/packages/elm-lang/core/latest/Basics#(|%3E)
 [haskel-pipeline]: https://wiki.haskell.org/$
 [smackage]: http://www.elsman.com/lessons/2014/10/02/getting-started-with-smackage
 
 # Function Pipelines support
 
-This lib provides function pipelines like you can find in [Elm][elm-pipeline]
-and [Haskel][haskel-pipeline].
+This lib provides function pipelines like you can find
+in [Elm][elm-pipeline] and [Haskel][haskel-pipeline].
 
 ## Installing
 
@@ -21,7 +21,7 @@ smackage get pipelines
 
 In your MLBasis add the entry:
 
-```
+```sml
 $(SMACKAGE)/pipelines/v1/pipelines.mlb
 ```
 
