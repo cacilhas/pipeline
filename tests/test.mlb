@@ -1,0 +1,8 @@
+local
+  $(SML_LIB)/basis/basis.mlb
+  $(SMACKAGE)/UnitTestML/v1/unittest.mlb
+  ../pipelines.mlb
+in
+  right-pipe-spec.sml
+  left-pipe-spec.sml
+end
