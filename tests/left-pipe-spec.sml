@@ -9,7 +9,7 @@ val () =
       it "(*3) $ (+2) $ 1 == 9" (fn () =>
         assertEqual 9 (mul 3 $ add 2 $ 1));
 
-      it "(+3) |> (*2) |> 1 == 5" (fn () =>
+      it "(+3) $ (*2) $ 1 == 5" (fn () =>
         assertEqual 5 (add 3 $ mul 2 $ 1));
 
       it "should respect fog" (fn () =>
