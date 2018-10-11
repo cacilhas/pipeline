@@ -17,7 +17,7 @@ Depends on [MLton][mlton].
 Install [Smackage][smackage] and run:
 
 ```sh
-smackage source pipelines git https://cacilhas@bitbucket.org/cacilhas/pipelines.git
+smackage source pipelines git https://bitbucket.org/cacilhas/pipelines.git
 smackage refresh
 smackage get pipelines
 ```
