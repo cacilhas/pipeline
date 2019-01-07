@@ -3,7 +3,7 @@
 [license]: https://opensource.org/licenses/BSD-3-Clause
 [mlton]: http://mlton.org/
 [smackage]: http://www.elsman.com/lessons/2014/10/02/getting-started-with-smackage
-[unittestml]: https://bitbucket.org/cacilhas/unittestml
+[unittestml]: https://github.com/cacilhas/UnitTestML
 
 # Function Pipelines support
 
@@ -17,7 +17,7 @@ Depends on [MLton][mlton].
 Install [Smackage][smackage] and run:
 
 ```sh
-smackage source pipelines git https://bitbucket.org/cacilhas/pipelines.git
+smackage source pipelines git https://github.com/cacilhas/pipelines
 smackage refresh
 smackage get pipelines
 ```
