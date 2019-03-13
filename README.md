@@ -51,13 +51,13 @@ d e |> b c |> a
 Instead of:
 
 ```sml
-a b (c d)
+a (b c (d e))
 ```
 
 You can write:
 
 ```sml
-a b $ c d
+a $ b c $ d e
 ```
 
 ## Testing
