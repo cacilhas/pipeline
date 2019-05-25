@@ -10,4 +10,5 @@ in
 
   infix  1 |>     val op|> = op</      (* Elm and Julia pipeline style *)
   infixr 1 $      val op$  = op\>      (* Haskell pipeline style       *)
+  infix  6 !!     val op!! = List.nth  (* Indexing                     *)
 end

@@ -1,1 +1,5 @@
-pipelines.sml
+local
+  $(SML_LIB)/basis/basis.mlb
+in
+  pipelines.sml
+end

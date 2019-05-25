@@ -60,6 +60,19 @@ You can write:
 a $ b c $ d e
 ```
 
+### `!!` example
+
+Intead of:
+
+```sml
+List.nth ([1, 2, 4, 8, 16], 2)
+```
+
+Uou can use:
+```sml
+[1, 2, 4, 8, 16] !! 2
+```
+
 ## Testing
 
 Install [UnitTestML][unittestml] and run:
